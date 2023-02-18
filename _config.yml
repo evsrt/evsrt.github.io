@@ -21,7 +21,7 @@ timezone:
 
 title: evsrt                          # the main title
 
-tagline: evsrt blog   # it will display as the sub-title
+tagline: cybersecurity notepad   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   cybersecurity notepad
