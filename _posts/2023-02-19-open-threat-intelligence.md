@@ -1,12 +1,9 @@
 ---
 title: open cyber threat intelligence
-date: 2023-02-19 10:12:00 +0300
+date: 2023-02-18 10:12:00 +0300
 categories: [links, cit]
 tags: [links, cit]     # TAG names should always be lowercase
 ---
-
-# open cyber threat intelligence
-
 * VirusTotal (https://www.virustotal.com): A free online service that analyzes suspicious files and URLs for viruses and other malware.
 
 * Shodan (https://www.shodan.io): A search engine for Internet-connected devices that allows you to identify vulnerabilities and security issues in systems.
