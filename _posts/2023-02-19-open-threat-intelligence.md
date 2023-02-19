@@ -1,6 +1,6 @@
 ---
 title: open cyber threat intelligence
-date: 2023-02-19 14:12:00 +0300
+date: 2023-02-19 10:12:00 +0300
 categories: [Links, cit]
 tags: [links, cit]     # TAG names should always be lowercase
 ---
