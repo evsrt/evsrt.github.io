@@ -5,9 +5,9 @@ categories: [Links, cit]
 tags: [links, cit]     # TAG names should always be lowercase
 ---
 
-* VirusTotal (https://www.virustotal.com): A free online service that analyzes suspicious files and URLs for viruses and other malware.
+* VirusTotal ([https://www.virustotal.com]): A free online service that analyzes suspicious files and URLs for viruses and other malware.
 
-* Shodan (https://www.shodan.io): A search engine for Internet-connected devices that allows you to identify vulnerabilities and security issues in systems.
+* Shodan ([https://www.shodan.io]): A search engine for Internet-connected devices that allows you to identify vulnerabilities and security issues in systems.
 
 * AlienVault Open Threat Exchange (https://otx.alienvault.com): A community-driven threat intelligence platform that allows users to share and analyze information about malicious activities and indicators of compromise.
 
