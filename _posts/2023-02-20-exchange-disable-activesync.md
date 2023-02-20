@@ -1,6 +1,6 @@
 ---
 title: Disable ActiveSync for mailbox
-date: 2023-02-20 12:12:00 +0300
+date: 2023-02-20 18:12:00 +0300
 categories: [microsoft, msexchange, script]
 tags: [msexchange, activesync, ps1]     # TAG names should always be lowercase
 ---
