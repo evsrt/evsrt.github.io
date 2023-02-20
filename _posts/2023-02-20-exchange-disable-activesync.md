@@ -6,6 +6,14 @@ tags: [msexchange, activesync, ps1]     # TAG names should always be lowercase
 ---
 
 # Disable ActiveSync for mailbox
+It is generally a best practice to disable ActiveSync for disabled users in a company's Active Directory environment for several reasons:
+
+> 1. Security: Disabling ActiveSync for disabled users prevents them from accessing their Exchange mailboxes through mobile devices, which can help prevent unauthorized access to company data. This is especially important for employees who have been terminated or are no longer with the company.
+> 2. Compliance: Disabling ActiveSync for disabled users can help maintain compliance with regulations such as HIPAA, GDPR, or other privacy laws, which require that organizations safeguard sensitive data and prevent unauthorized access.
+> 3. Resource management: Disabling ActiveSync for disabled users can help free up resources on Exchange servers, such as CPU, memory, and storage, which can be used to support active users.
+> 4. Licensing: Depending on the licensing model used by an organization, disabling ActiveSync for disabled users can help reduce licensing costs by freeing up licenses that would otherwise be used by inactive users.
+
+In summary, disabling ActiveSync for disabled users helps improve security, compliance, resource management, and licensing in an organization's Exchange environment.
 ```powershell
 # Установка параметров скрипта
 $OUName = "OU=DisableUsers,DC=Security,DC=local"
