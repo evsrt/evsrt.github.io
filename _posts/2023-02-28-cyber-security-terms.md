@@ -90,7 +90,5 @@ tags: [terms, acronyms]     # TAG names should always be lowercase
 
 ## Acronyms
 | Acronym | Description |
-|-------|--------------------------------------------------------------|
-| PAM   | Privileged access management |
-| APT   | Advanced Persistent Threat |
-| AV    | Antivirus |
+| --- | --- |
+| PAM | Privileged access management  |
