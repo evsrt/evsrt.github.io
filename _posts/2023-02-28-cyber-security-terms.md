@@ -189,3 +189,9 @@ tags: [terms, acronyms]     # TAG names should always be lowercase
 | SCADA | Supervisory Control and Data Acquisition |
 | SDLC | Software Development Life Cycle |
 | SIEM | Security Information and Event Management |
+
+| Company                      | Contact          | Country |
+|:-----------------------------|:-----------------|--------:|
+| Alfreds Futterkiste          | Maria Anders     | Germany |
+| Island Trading               | Helen Bennett    | UK      |
+| Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy   |
