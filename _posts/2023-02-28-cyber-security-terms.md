@@ -84,7 +84,7 @@ tags: [terms, acronyms]     # TAG names should always be lowercase
 
 **Risk Management** - The process of identifying, assessing, and prioritizing risks to an organization's assets and implementing strategies to mitigate those risks.
 
-**Security** Awareness Training - Education and training programs designed to help employees and other stakeholders understand and follow best practices for information security.
+**Security Awareness Training** - Education and training programs designed to help employees and other stakeholders understand and follow best practices for information security.
 
 **Security Information Management (SIM)** - The process of collecting, analyzing, and reporting on security-related data to support decision-making and improve security posture.
 
@@ -95,8 +95,8 @@ tags: [terms, acronyms]     # TAG names should always be lowercase
 | APT   | Advanced Persistent Threat |
 | AV    | Antivirus |
 | AWS   | Amazon Web Services |
-| BCP   |  Business Continuity Planning |
-| CASB  |  Cloud Access Security Broker |
+| BCP   | Business Continuity Planning |
+| CASB  | Cloud Access Security Broker |
 | CDM   | Continuous Diagnostics and Mitigation |
 | CERT  | Computer Emergency Response Team |
 | CISO  | hief Information Security Officer |
