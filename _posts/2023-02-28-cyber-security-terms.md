@@ -96,7 +96,7 @@ tags: [terms, acronyms]     # TAG names should always be lowercase
 | AV  | Antivirus |
 | AWS | Amazon Web Services |
 | BCP |  Business Continuity Planning |
-| CASB|  Cloud Access Security Broker |
+| CASB |  Cloud Access Security Broker |
 | CDM | Continuous Diagnostics and Mitigation |
 | CERT |Computer Emergency Response Team |
 | CISO | hief Information Security Officer |
@@ -184,14 +184,9 @@ tags: [terms, acronyms]     # TAG names should always be lowercase
 | XSS | Cross-Site Scripting |
 | XML | Extensible Markup Language |
 | Zero-day | Zero-day Vulnerability |
-| SaaS | Software as a Service |
-| SAN | Storage Area Network |
+| SaaS     | Software as a Service |
+| SAN   | Storage Area Network |
 | SCADA | Supervisory Control and Data Acquisition |
 | SDLC | Software Development Life Cycle |
 | SIEM | Security Information and Event Management |
 
-| Company                      | Contact          | Country |
-|:-----------------------------|:-----------------|--------:|
-| Alfreds Futterkiste          | Maria Anders     | Germany |
-| Island Trading               | Helen Bennett    | UK      |
-| Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy   |
