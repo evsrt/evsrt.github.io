@@ -91,10 +91,17 @@ tags: [terms, acronyms]     # TAG names should always be lowercase
 ## Acronyms
 | Acronym  |  Description |   |   |   |
 |---|---|---|---|---|
-|  PAM | Privileged access management  |   |   |   |
-|  APT   | Advanced Persistent Threat  |   |   |   |
-|  AV    | Antivirus  |   |   |   |
-|  AWS   | Amazon Web Services  |   |   |   |
+| PAM | Privileged access management |   |   |   |
+| APT | Advanced Persistent Threat   |   |   |   |
+| AV  | Antivirus                    |   |   |   |
+| AWS | Amazon Web Services          |   |   |   |
+
+| Acronym | Description                |   |   |   |
+|---------|----------------------------|---|---|---|
+| APT     | Advanced Persistent Threat |   |   |   |
+| AV      | Antivirus                  |   |   |   |
+| AWS     | Amazon Web Services        |   |   |   |
+| PAM     | Privileged access management   |   |   |
 |  BCP   | Business Continuity Planning  |   |   |   |
 |  CASB  |  Cloud Access Security Broker  |   |   |   |
 |  CDM   | Continuous Diagnostics and Mitigation  |   |   |   |
