@@ -89,14 +89,14 @@ tags: [terms, acronyms]     # TAG names should always be lowercase
 **Security Information Management (SIM)** - The process of collecting, analyzing, and reporting on security-related data to support decision-making and improve security posture.
 
 ## Acronyms 
-| - | - |
+| Acronym | Description |
 |-------|--------------------------------------------------------------|
 | PAM   | Privileged access management |
 | APT   | Advanced Persistent Threat |
 | AV    | Antivirus |
 | AWS   | Amazon Web Services |
 | BCP   | Business Continuity Planning |
-| CASB  | Cloud Access Security Broker |
+| CASB  |  Cloud Access Security Broker |
 | CDM   | Continuous Diagnostics and Mitigation |
 | CERT  | Computer Emergency Response Team |
 | CISO  | hief Information Security Officer |
