@@ -91,4 +91,11 @@ tags: [terms, acronyms]     # TAG names should always be lowercase
 ## Acronyms
 | Acronym | Description |
 | --- | --- |
-| PAM | Privileged access management  |
+| PAM | Privileged access management |
+
+
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
