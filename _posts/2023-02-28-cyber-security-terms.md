@@ -89,7 +89,7 @@ tags: [terms, acronyms]     # TAG names should always be lowercase
 **Security Information Management (SIM)** - The process of collecting, analyzing, and reporting on security-related data to support decision-making and improve security posture.
 
 ## Acronyms 
-| - | - |
+| -   | -   |
 |:--------|:---------|
 | PAM | Privileged access management|
 | APT | Advanced Persistent Threat|
@@ -101,91 +101,91 @@ tags: [terms, acronyms]     # TAG names should always be lowercase
 | CERT |Computer Emergency Response Team|
 | CISO| hief Information Security Officer|
 | CMS |Content Management System|
-|COBIT | Control Objectives for Information and Related Technology|
-|CSIRT | Computer Security Incident Response Team|
-|CSRF | Cross-Site Request Forgery|
-|CSV | Comma-Separated Values|
-|CVE | Common Vulnerabilities and Exposures|
-|DDoS | Distributed Denial of Service|
-|DMZ | Demilitarized Zone|
-|DNS | Domain Name System|
-|DLP | Data Loss Prevention|
-|DMARC | Domain-based Message Authentication, Reporting and Conformance|
-|EDR | Endpoint Detection and Response|
-|EPP | Endpoint Protection Platform|
-|FDE | Full Disk Encryption|
-|FIPS | Federal Information Processing Standard|
-|FTP | File Transfer Protocol|
-|GRC | Governance, Risk and Compliance|
-|HIPAA | Health Insurance Portability and Accountability Act|
-|HIDS | Host-based Intrusion Detection System|
-|HIPS | Host-based Intrusion Prevention System|
-|HTML | Hypertext Markup Language|
-|HTTP | Hypertext Transfer Protocol|
-|HTTPS | Hypertext Transfer Protocol Secure|
-|IAM | Identity and Access Management|
-|IAT | Insider Threat|
-|ICAM | Identity, Credential, and Access Management|
-|IDS | Intrusion Detection System|
-|IETF | Internet Engineering Task Force|
-|IPS | Intrusion Prevention System|
-|ISO | International Organization for Standardization|
-|IoT | Internet of Things|
-|IPSec | Internet Protocol Security|
-|IR | Incident Response|
-|ISACA | Information Systems Audit and Control Association|
-|ISC | Information Security Certification|
-|ISO | Information Security Officer|
-|ISO | Information Security Operations|
-|ITIL | Information Technology Infrastructure Library|
-|JWT | JSON Web Token|
-|LAN | Local Area Network|
-|LDAP | Lightweight Directory Access Protocol|
-|MAC | Mandatory Access Control|
-|MFA | Multi-Factor Authentication|
-|MDM | Mobile Device Management|
-|MITM | Man-in-the-Middle|
-|NAC | Network Access Control|
-|NAT | Network Address Translation|
-|NIST | National Institute of Standards and Technology|
-|NTFS | New Technology File System|
-|OAuth | Open Authorization|
-|OCR | Optical Character Recognition|
-|OWASP | Open Web Application Security Project|
-|PaaS | Platform as a Service|
-|PCI | Payment Card Industry|
-|PII | Personally Identifiable Information|
-|PKI | Public Key Infrastructure|
-|PowerShell | Windows PowerShell|
-|PSTN | Public Switched Telephone Network|
-|RADIUS | Remote Authentication Dial-In User Service|
-|RBAC | Role-Based Access Control|
-|REST | Representational State Transfer|
-|RPO | Recovery Point Objective|
-|RSA | Rivest–Shamir–Adleman|
-|SSO | Single Sign-On|
-|SSL | Secure Sockets Layer|
-|SSH | Secure Shell|
-|STIG | Security Technical Implementation Guide|
-|TCP | Transmission Control Protocol|
-|TLS | Transport Layer Security|
-|TOTP | Time-based One-Time Password|
-|UAC | User Account Control|
-|UEBA | User and Entity Behavior Analytics|
-|UDP | User Datagram Protocol|
-|UEFI | Unified Extensible Firmware Interface|
-|URL | Uniform Resource Locator|
-|USB | Universal Serial Bus|
-|VDI | Virtual Desktop Infrastructure|
-|VLAN | Virtual Local Area Network|
-|VPN | Virtual Private Network|
-|WAF | Web Application Firewall|
-|WPA | Wi-Fi Protected Access|
-|XSS | Cross-Site Scripting|
-|XML | Extensible Markup Language|
-|Zero-day | Zero-day Vulnerability|
-|SaaS | Software as a Service|
-|SAN | Storage Area Network|
-|SCADA | Supervisory Control and Data Acquisition|
-|SDLC | Software Development Life Cycle|
-|SIEM | Security Information and Event Management|
+| COBIT | Control Objectives for Information and Related Technology|
+| CSIRT | Computer Security Incident Response Team|
+| CSRF | Cross-Site Request Forgery|
+| CSV | Comma-Separated Values|
+| CVE | Common Vulnerabilities and Exposures|
+| DDoS | Distributed Denial of Service|
+| DMZ | Demilitarized Zone|
+| DNS | Domain Name System|
+| DLP | Data Loss Prevention|
+| DMARC | Domain-based Message Authentication, Reporting and Conformance|
+| EDR | Endpoint Detection and Response|
+| EPP | Endpoint Protection Platform|
+| FDE | Full Disk Encryption|
+| FIPS | Federal Information Processing Standard|
+| FTP | File Transfer Protocol|
+| GRC | Governance, Risk and Compliance|
+| HIPAA | Health Insurance Portability and Accountability Act|
+| HIDS | Host-based Intrusion Detection System|
+| HIPS | Host-based Intrusion Prevention System|
+| HTML | Hypertext Markup Language|
+| HTTP | Hypertext Transfer Protocol|
+| HTTPS | Hypertext Transfer Protocol Secure|
+| IAM | Identity and Access Management|
+| IAT | Insider Threat|
+| ICAM | Identity, Credential, and Access Management|
+| IDS | Intrusion Detection System|
+| IETF | Internet Engineering Task Force|
+| IPS | Intrusion Prevention System|
+| ISO | International Organization for Standardization|
+| IoT | Internet of Things|
+| IPSec | Internet Protocol Security|
+| IR | Incident Response|
+| ISACA | Information Systems Audit and Control Association|
+| ISC | Information Security Certification|
+| ISO | Information Security Officer|
+| ISO | Information Security Operations|
+| ITIL | Information Technology Infrastructure Library|
+| JWT | JSON Web Token|
+| LAN | Local Area Network|
+| LDAP | Lightweight Directory Access Protocol|
+| MAC | Mandatory Access Control|
+| MFA | Multi-Factor Authentication|
+| MDM | Mobile Device Management|
+| MITM | Man-in-the-Middle|
+| NAC | Network Access Control|
+| NAT | Network Address Translation|
+| NIST | National Institute of Standards and Technology|
+| NTFS | New Technology File System|
+| OAuth | Open Authorization|
+| OCR | Optical Character Recognition|
+| OWASP | Open Web Application Security Project|
+| PaaS | Platform as a Service|
+| PCI | Payment Card Industry|
+| PII | Personally Identifiable Information|
+| PKI | Public Key Infrastructure|
+| PowerShell | Windows PowerShell|
+| PSTN | Public Switched Telephone Network|
+| RADIUS | Remote Authentication Dial-In User Service|
+| RBAC | Role-Based Access Control|
+| REST | Representational State Transfer|
+| RPO | Recovery Point Objective|
+| RSA | Rivest–Shamir–Adleman|
+| SSO | Single Sign-On|
+| SSL | Secure Sockets Layer|
+| SSH | Secure Shell|
+| STIG | Security Technical Implementation Guide|
+| TCP | Transmission Control Protocol|
+| TLS | Transport Layer Security|
+| TOTP | Time-based One-Time Password|
+| UAC | User Account Control|
+| UEBA | User and Entity Behavior Analytics|
+| UDP | User Datagram Protocol|
+| UEFI | Unified Extensible Firmware Interface|
+| URL | Uniform Resource Locator|
+| USB | Universal Serial Bus|
+| VDI | Virtual Desktop Infrastructure|
+| VLAN | Virtual Local Area Network|
+| VPN | Virtual Private Network|
+| WAF | Web Application Firewall|
+| WPA | Wi-Fi Protected Access|
+| XSS | Cross-Site Scripting|
+| XML | Extensible Markup Language|
+| Zero-day | Zero-day Vulnerability|
+| SaaS | Software as a Service|
+| SAN | Storage Area Network|
+| SCADA | Supervisory Control and Data Acquisition|
+| SDLC | Software Development Life Cycle|
+| SIEM | Security Information and Event Management|
