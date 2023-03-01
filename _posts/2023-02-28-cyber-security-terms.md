@@ -90,17 +90,17 @@ tags: [terms, acronyms]     # TAG names should always be lowercase
 
 ## Acronyms 
 | - | - |
-|---|---|
-| PAM | Privileged access management |
-| APT | Advanced Persistent Threat |
-| AV  | Antivirus |
-| AWS | Amazon Web Services |
-| BCP |  Business Continuity Planning |
-| CASB |  Cloud Access Security Broker |
-| CDM | Continuous Diagnostics and Mitigation |
-| CERT |Computer Emergency Response Team |
-| CISO | hief Information Security Officer |
-| CMS |Content Management System |
+|-------|--------------------------------------------------------------|
+| PAM   | Privileged access management |
+| APT   | Advanced Persistent Threat |
+| AV    | Antivirus |
+| AWS   | Amazon Web Services |
+| BCP   |  Business Continuity Planning |
+| CASB  |  Cloud Access Security Broker |
+| CDM   | Continuous Diagnostics and Mitigation |
+| CERT  | Computer Emergency Response Team |
+| CISO  | hief Information Security Officer |
+| CMS   | Content Management System |
 | COBIT | Control Objectives for Information and Related Technology |
 | CSIRT | Computer Security Incident Response Team |
 | CSRF | Cross-Site Request Forgery |
