@@ -51,3 +51,16 @@ tags: [ad]     # TAG names should always be lowercase
 
     Port 9389: This is used for web services for Active Directory Domain Services.
 
+    Port 22 - SSH (Secure Shell): This port is used for secure remote access to a system. It is important to monitor this port as it can be used for unauthorized access if left unsecured.
+
+    Port 80/443 - HTTP/HTTPS: These ports are used for web traffic. They should be monitored to prevent web-based attacks such as SQL injection and cross-site scripting.
+
+    Port 25 - SMTP (Simple Mail Transfer Protocol): This port is used for email traffic. It should be monitored to prevent unauthorized email relay or spamming.
+
+    Port 3389 - Remote Desktop Protocol (RDP): This port is used for remote access to a system. It is important to monitor this port as it can be used for unauthorized access if left unsecured.
+
+    Port 1433 - Microsoft SQL Server: This port is used for Microsoft SQL Server traffic. It should be monitored to prevent SQL injection attacks.
+
+    Port 53 - DNS (Domain Name System): This port is used for DNS traffic. It should be monitored to prevent DNS spoofing or cache poisoning attacks.
+
+    Port 161/162 - SNMP (Simple Network Management Protocol): These ports are used for network management traffic. It should be monitored to prevent unauthorized access to network devices.
