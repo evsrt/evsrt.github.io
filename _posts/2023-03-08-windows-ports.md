@@ -7,24 +7,23 @@ tags: [ad]     # TAG names should always be lowercase
 ---
 # List of ports
 
-| Port | Service                |   |   |   |
-|---------|----------------------------|---|---|---|
-| 53     | служба DNS |   |   |   |
-| 80     | (HTTP) — веб-сервер Microsoft IIS/10.0 |   |   |   |
-| 88     | служба Kerberos |   |   |   |
-| 135     | служба удаленного вызова процедур (Microsoft RPC). Используется для взаимодействия контроллер — контроллер и контроллер — клиент |   |   |   |
-| 139     | служба сеансов NetBIOS, NetLogon |   |   |   |
-| 389     | служба LDAP |   |   |   |
-| 445     | служба SMB |   |   |   |
-| 464     | служба смены пароля Kerberos |   |   |   |
-| 593     | (HTTP-RPC-EPMAP) — используется в службах DCOM и MS Exchange |   |   |   |
-| 636     | LDAP с шифрованием SSL или TLS |   |   |   |
-| 3268     | LDAP — для доступа к Global Catalog от клиента к контроллеру |   |   |   |
-| 3269     | LDAPS — для доступа к Global Catalog от клиента к контроллеру через защищенное соединение |   |   |   |
-| 5985     | службаудаленногоуправления(WinRM) |   |   |   |
-| 9389     | веб-службы AD DS |   |   |   |
+| Port    | Service                                                              |
+|---------|----------------------------------------------------------------------|
+| 53      | служба DNS                                                           |
+| 80      | (HTTP) — веб-сервер Microsoft IIS/10.0                               |
+| 88      | служба Kerberos                                                      |
+| 135     | служба удаленного вызова процедур (Microsoft RPC). Используется для взаимодействия контроллер — контроллер и контроллер — клиент                                   |
+| 139     | служба сеансов NetBIOS, NetLogon                                     |
+| 389     | служба LDAP                                                          |
+| 445     | служба SMB                                                           |
+| 464     | служба смены пароля Kerberos                                         |
+| 593     | (HTTP-RPC-EPMAP) — используется в службах DCOM и MS Exchange         |
+| 636     | LDAP с шифрованием SSL или TLS                                       |
+| 3268    | LDAP — для доступа к Global Catalog от клиента к контроллеру         |
+| 3269    | LDAPS — для доступа к Global Catalog от клиента к контроллеру через защищенное соединение 
+| 5985    | служба удаленного управления (WinRM)                                 |
+| 9389    | веб-службы AD DS                                                     |
 
-    
 Port 53: This is used for DNS (Domain Name System), which is used to translate domain names into IP addresses.
 
 Port 80: This is used for HTTP (Hypertext Transfer Protocol), which is used for web servers to deliver web pages.
