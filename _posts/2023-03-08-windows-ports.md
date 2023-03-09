@@ -6,6 +6,7 @@ tags: [ad]     # TAG names should always be lowercase
 #img_path: /img/
 ---
 # List of ports
+
 | Port | Service                |   |   |   |
 |---------|----------------------------|---|---|---|
 | 53     | служба DNS |   |   |   |
