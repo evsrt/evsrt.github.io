@@ -10,5 +10,7 @@ color_scheme: light
 ga_tracking: G-8KSDP9S7RW
 ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
+search_enabled: true
+
 #aux_links:
 #  Template Repository: https://github.com/just-the-docs/just-the-docs-template
