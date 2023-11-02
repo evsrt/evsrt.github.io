@@ -5,6 +5,5 @@ has_children: true
 permalink: /docs/RA
 ---
 
-
-Ссылки на официальные ресурсы
 {: .highlight }
+Ссылки на официальные ресурсы
