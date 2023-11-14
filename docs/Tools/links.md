@@ -4,7 +4,7 @@ title: links
 parent: Tools
 ---
 ## Ссылки на инструменты
-[UserAgentString.com: Сервис для анализа и определения строки пользовательского агента в веб-браузерах.]https://www.useragentstring.com/pages/useragentstring.php
+UserAgentString.com: Сервис для анализа и определения строки пользовательского агента в веб-браузерах.<https://www.useragentstring.com/pages/useragentstring.php>
 
 [IPInfo ASN Lookup: Сервис для поиска информации о автономных системах (AS) на основе их номеров.](https://asn.ipinfo.app/AS209854)
 
