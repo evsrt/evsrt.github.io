@@ -6,7 +6,8 @@ parent: Tools
 ## Ссылки на инструменты
 ## UserAgentString.com: Сервис для анализа и определения строки пользовательского агента в веб-браузерах.
 <https://www.useragentstring.com/pages/useragentstring.php>
-
+## Open-Source Network Simulators
+<https://www.brianlinkletter.com/open-source-network-simulators/>
 [IPInfo ASN Lookup: Сервис для поиска информации о автономных системах (AS) на основе их номеров.](https://asn.ipinfo.app/AS209854)
 
 [ThreatBook: Платформа для исследования и анализа киберугроз и уязвимостей.](https://threatbook.io/)
