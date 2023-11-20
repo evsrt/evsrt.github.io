@@ -4,7 +4,7 @@ title: access
 parent: KB
 ---
 # Блокировка доступа к файлам bitrix в .htaccess
-```
+```ruby
 # /bitrix/tools/
 
 <Files ~ "^(html_editor_action|mail_entry|upload)\.php$>
