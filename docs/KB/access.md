@@ -16,6 +16,7 @@ parent: KB
 <Files ~ "^(uf)\.php$>
     deny from all
 </Files>
+
 # /bitrix/modules/main/include/
 
 <Files ~ "^(virtual_file_system)\.php$>
@@ -34,6 +35,7 @@ parent: KB
     deny from all
 </Files>
 ```
+
 # Блокировка POST запросов для bitrix
 ```ruby
 # conf.d/bitrix_block.conf
