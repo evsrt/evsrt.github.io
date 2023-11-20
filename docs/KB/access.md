@@ -4,7 +4,7 @@ title: access
 parent: KB
 ---
 # Блокировка доступа к файлам bitrix в .htaccess
-```ruby
+```
 # /bitrix/tools/
 
 <Files ~ "^(html_editor_action|mail_entry|upload)\.php$>
@@ -33,6 +33,19 @@ parent: KB
 
 <Files ~ "^(site_checker)\.php$>
     deny from all
+</Files>
+
+# Пример блокировки с исключением
+
+<Files "filename.txt">
+    Order Allow,Deny
+    Allow 192.168.0.1
+    Deny from all
+</Files>
+
+<Files "anotherfile.html">
+    Order Allow,Deny
+    Deny from all
 </Files>
 ```
 
