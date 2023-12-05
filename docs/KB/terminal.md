@@ -97,3 +97,7 @@ egrep '(\d{3})-\d[2}-\d{4}' data.txt
 ```bash
 stat -c "%y $U" /path/to/file
 ```
+```bash
+stat -c "%a %n" ~/.ssh/*
+700 .ssh/
+```
