@@ -10,3 +10,7 @@ parent: Education
 # tryhackme
 [tryhackme.com We're a gamified, hands-on cyber security training platform that you can access through your browser, with blue, red and purple team content for all skill levels.]
 <https://tryhackme.com/>
+
+# HackTricks
+[Welcome to the wiki where you will find each hacking trick/technique/whatever I have learnt from CTFs, real life apps, reading researches, and news.]
+<https://book.hacktricks.xyz/>
