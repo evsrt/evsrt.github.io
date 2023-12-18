@@ -3,6 +3,27 @@ layout: default
 title: powershell
 parent: KB
 ---
+## Список маршрутов
+```powershell
+netsh interface ip show route
+
+Commands in this context:
+show address   - Displays IP address configuration.
+show config    - Displays IP address and additional information.
+show dns       - Displays the DNS server addresses.
+show icmp      - Displays ICMP statistics.
+show interface - Displays IP interface statistics.
+show ipaddress - Displays current IP addresses.
+show ipnet     - Displays IP net-to-media mappings.
+show ipstats   - Displays IP statistics.
+show joins     - Displays multicast groups joined.
+show offload   - Displays the offload information.
+show tcpconn   - Displays TCP connections.
+show tcpstats  - Displays TCP statistics.
+show udpconn   - Displays UDP connections.
+show udpstats  - Displays UDP statistics.
+show wins      - Displays the WINS server addresses.
+```
 ## Создание директории
 ```powershell
 mkdir -p \\infosec.local\SYSVOL\infosec.local\PolicyDefinitions\ru-RU
