@@ -4,6 +4,26 @@ title: terminal
 parent: KB
 ---
 # Полезные команды
+## lsof 
+```bash
+sudo lsof -iTCP -sTCP:LISTEN -n -P
+```
+Команда lsof -iTCP -sTCP:LISTEN -n -P выводит список всех открытых файлов (List Open Files) в системе, фильтруя результаты по сокетам TCP, и показывает только прослушиваемые (LISTEN) соединения. Расшифровка опций в команде:
+
+    -iTCP: Фильтрация результатов для сокетов TCP.
+    -sTCP:LISTEN: Показывает только прослушиваемые (LISTEN) соединения.
+    -n: Показывает числовые адреса вместо их разрешения в имена.
+    -P: Отключает разрешение портов на имена (выводит числовые значения портов).
+
+Output example:
+```bash
+
+COMMAND      PID   USER   FD   TYPE    DEVICE SIZE/OFF NODE NAME
+sshd         964   root    3u  IPv4     25055      0t0  TCP *:22 (LISTEN)
+sshd         964   root    4u  IPv6     25057      0t0  TCP *:22 (LISTEN)
+```
+В этом примере видно, что процесс с именем "sshd" слушает порт 22 (SSH) на всех интерфейсах.
+
 ## date
 ```bash
 # Показать дату в формате  MM/DD/YYYY
