@@ -3,6 +3,10 @@ layout: default
 title: docker
 parent: KB
 ---
+## Для проверки статуса контейнеров
+```bash
+docker ps -a --format "{{.Names}}: {{.Status}}"
+```
 # Docker Security Cheat Sheet
 <https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html>
 
