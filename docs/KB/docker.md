@@ -4,7 +4,7 @@ title: docker
 parent: KB
 ---
 ## Для проверки статуса контейнеров
-```bash
+```
 docker ps -a --format "{{.Names}}: {{.Status}}"
 ```
 # Docker Security Cheat Sheet
