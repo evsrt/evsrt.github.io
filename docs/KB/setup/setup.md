@@ -3,5 +3,6 @@ layout: default
 title: setup
 has_children: true
 permalink: /docs/KB/setup
-parent: KB
+parent: /docs/KB
 ---
+
