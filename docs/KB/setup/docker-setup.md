@@ -2,6 +2,8 @@
 layout: default
 title: docker-setup
 parent: setup
+grand_parent: KB
+permalink: /docs/KB/setup/docker-setup/
 ---
 # Установка docker
 ```bash
