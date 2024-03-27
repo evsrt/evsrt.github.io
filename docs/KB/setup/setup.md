@@ -1,8 +1,7 @@
 ---
 layout: default
 title: setup
+parent: KB
 has_children: true
-permalink: /docs/KB/setup
-parent: /docs/KB
 ---
 
