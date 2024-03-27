@@ -1,0 +1,9 @@
+---
+layout: default
+title: Unix
+parent: KB
+---
+## Filesystem Hierarchy Standard (FHS)
+The Filesystem Hierarchy Standard (FHS) is a reference describing the conventions used for the layout of Unix-like systems. It has been made popular by its use in Linux distributions, but it is used by other Unix-like systems as well. It is maintained by the Linux Foundation. The latest version is 3.0, released on 3 June 2015.
+<https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard>
+
