@@ -1,7 +1,7 @@
 ---
 layout: default
 title: docker-setup
-parent: KB
+parent: setup
 ---
 # Установка docker
 ```bash
