@@ -3,6 +3,14 @@ layout: default
 title: links
 parent: Tools
 ---
+## blackbox.ai
+Write and Review Code with the help of our AI-powered Code Chat. Seamlessly integrate BLACKBOX AI into your existing workflow to Supercharge your Coding Experience.
+
+<https://www.blackbox.ai/>
+## What2Log
+What2Log was a project that began when we saw a noticeable gap in computer security notation in regards to logs. There had not been a centralized resource of what and how to understand the logs of the major operating systems that are used everyday. What2Log was made to fill that exact gap.
+
+<https://what2log.com/>
 ## ATT&CK Matrix for Enterprise
 <https://attack.mitre.org/>
 ## UserAgentString.com: Сервис для анализа и определения строки пользовательского агента в веб-браузерах.
