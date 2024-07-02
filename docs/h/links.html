@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Security links</title>
+    <style>
+        body {
+            background-color: #121212; /* Material dark background */
+            color: #E0E0E0; /* Material light text */
+            font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem; /* Material Design typography scale */
+            font-weight: 400;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 40px;
+        }
+
+        .link {
+            background-color: #6200EA; /* Material primary color */
+            color: white;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 10px;
+            border-radius: 4px; /* Material standard border-radius */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.24), 0 3px 4px rgba(0,0,0,0.12); /* Material elevation */
+            transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+        }
+		.link.positive {
+            background-color: #ff370c; /* Material primary color */
+            color: white;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 10px;
+            border-radius: 4px; /* Material standard border-radius */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.24), 0 3px 4px rgba(0,0,0,0.12); /* Material elevation */
+            transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .link.positive:hover {
+            background-color: #ff4720; /* Material primary variant color */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.24), 0 5px 5px rgba(0,0,0,0.12); /* Material elevation on hover */
+            transform: translateY(-2px);
+        }
+		
+		.link.tools {
+            background-color: #1B4F72; /* Material primary color */
+            color: white;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 10px;
+            border-radius: 4px; /* Material standard border-radius */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.24), 0 3px 4px rgba(0,0,0,0.12); /* Material elevation */
+            transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .link.tools:hover {
+            background-color: #1B4F72; /* Material primary variant color */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.24), 0 5px 5px rgba(0,0,0,0.12); /* Material elevation on hover */
+            transform: translateY(-2px);
+        }
+		
+		.link.infowatch {
+            background-color: #239B56; /* Material primary color */
+            color: white;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 10px;
+            border-radius: 4px; /* Material standard border-radius */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.24), 0 3px 4px rgba(0,0,0,0.12); /* Material elevation */
+            transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .link.infowatch:hover {
+            background-color: #28B463; /* Material primary variant color */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.24), 0 5px 5px rgba(0,0,0,0.12); /* Material elevation on hover */
+            transform: translateY(-2px);
+        }
+		
+		.link.usergate {
+            background-color: #555555; /* Material primary color */
+            color: white;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 10px;
+            border-radius: 4px; /* Material standard border-radius */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.24), 0 3px 4px rgba(0,0,0,0.12); /* Material elevation */
+            transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .link.usergate:hover {
+            background-color: #616161; /* Material primary variant color */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.24), 0 5px 5px rgba(0,0,0,0.12); /* Material elevation on hover */
+            transform: translateY(-2px);
+        }
+		
+		.link.docs {
+            background-color: #1296F3; /* Material primary color */
+            color: white;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 1rem;
+            margin: 10px;
+            border-radius: 4px; /* Material standard border-radius */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.24), 0 3px 4px rgba(0,0,0,0.12); /* Material elevation */
+            transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        .link.docs:hover {
+            background-color: #64B5F6; /* Material primary variant color */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.24), 0 5px 5px rgba(0,0,0,0.12); /* Material elevation on hover */
+            transform: translateY(-2px);
+        }
+
+		.link:hover {
+            background-color: #3700B3; /* Material primary variant color */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.24), 0 5px 5px rgba(0,0,0,0.12); /* Material elevation on hover */
+            transform: translateY(-2px);
+        }
+
+        /* Custom button styles for differentiation */
+        .link.cyberpunk {
+            background-color: #03DAC6; /* Material secondary color */
+        }
+        .link.news {
+            background-color: #B00020; /* Material error color */
+        }
+        .link.maps {
+            background-color: #FFC107; /* Material warning color */
+        }
+        .link.cyberpunk:hover, .link.news:hover, .link.maps:hover {
+            background-color: darken(#03DAC6, 15%); /* Example for darken function, use specific color */
+        }
+
+        @media screen and (max-width: 600px) {
+            .links {
+                flex-direction: column;
+            }
+            .link {
+                margin: 10px 0; /* Increased margin for better touch targets */
+            }
+            h1 {
+                font-size: 2rem; /* Adjusted for smaller screens */
+            }
+        }
+		
+		.digital-clock {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            color: #FFC107; /* Material warning color for visibility */
+        }
+
+        .clock-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .clock-section {
+            margin: 0 20px; /* Spacing between clock sections */
+        }
+    </style>
+	<script>
+    function updateClocks() {
+        const nowUTC = new Date();
+        // Display UTC Time
+        document.getElementById('digitalClockUTC').textContent = nowUTC.toUTCString().split(" ")[4];
+        
+        // Calculate and display Europe/Moscow Time (UTC+3)
+        const nowMoscow = new Date(nowUTC.getTime() + 3 * 3600 * 1000); // UTC+3 for Moscow
+        document.getElementById('digitalClockMoscow').textContent = nowMoscow.toUTCString().split(" ")[4];
+    }
+
+    setInterval(updateClocks, 1000);
+    updateClocks(); // Initial call to display clocks immediately
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <base target="_blank">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+		</div>
+		<h2>DOC</h2>
+		<div class="links">
+			<a href="https://download.geo.drweb.com/pub/drweb/unix/server/11.0/documentation/html/ru/" class="link docs">Dr.Web для файловых серверов UNIX</a> 
+			<a href="https://kbp.aladdin-rd.ru//index.php?CategoryID=47" class="link docs">Aladdin 2FA</a> 
+			<a href="https://docs.gitflic.space/" class="link docs">Документация GitFlic</a>
+		  <a href="https://docs.securitycode.ru/" class="link docs">Код Безопасности</a>
+			<a href="https://support.kaspersky.com/KDP/1.0/ru-RU/" class="link docs">Kaspersky DDoS Protection</a>
+			<a href="https://support.kaspersky.ru/kes-for-linux/11.4.0" class="link docs">KES for Linux</a>
+			<a href="https://cpdn.cryptopro.ru/content/ngate/admin-guide/index.html" class="link docs">КриптоПро NGate</a>
+			<a href="https://redos.red-soft.ru/base/" class="link docs">РЕД ОС: База знаний</a>
+			<a href="https://nginx.org/ru/docs/" class="link docs">nginx: документация</a>
+			<a href="https://kb.infowatch.com/" class="link docs">InfoWatch Knowledge Base</a>
+			<a href="https://help.ptsecurity.com/projects" title="Positive Technologies" class="link docs">Справочный портал - Positive Technologies</a>
+			<a href="https://support.kaspersky.com/KSMG/2.0/ru-RU/201622.htm" title="KSMG" class="link docs">Справка Kaspersky Secure Mail Gateway</a>
+			<a href="https://support.kaspersky.com/KSC/14.2/ru-RU/5022.htm" title="KSC" class="link docs">Справка Kaspersky Security Center 14.2</a>
+			<a href="https://support.kaspersky.com/KESWin/12.1/ru-RU/222859.htm" title="KES" class="link docs">Справка Kaspersky Endpoint Security для Windows</a>
+			<a href="https://support.usergate.com/ru/docs/version/6x/usergate-log-analyzer-rukovodstvo-administratora" title="USERGATE LOG ANALYZER" class="link docs">USERGATE LOG ANALYZER 6.x</a>
+			<a href="https://support.usergate.com/ru/docs?field_product_version_tid_selective=8" title="UG 6" class="link docs">USERGATE 6</a>
+			<a href="https://support.usergate.com/ru/docs?field_product_version_tid_selective=9" title="UG 7" class="link docs">USERGATE 7</a>
+			<a href="https://cdn-download.drweb.com/pub/drweb/esuite/13.0.0/documentation/html/ru/admin_manual/" title="Dr.Web" class="link docs">Руководство администратора Dr.Web</a>
+			<a href="https://www.securitycode.ru/products/secret-net-studio/?tab=support" title="SNS" class="link docs">Secret Net Studio 8.8</a>
+			<a href="https://mitre.ptsecurity.com/ru-RU/techniques?utm_source=habr&utm_medium=article&utm_campaign=matrixPTNAD" title="PT NAD" class="link docs">MITRE ATT&CK - PT NAD</a>
+			<a href="https://attack.mitre.org/" title="MITRE ATT&CK" class="link docs">MITRE ATT&CK</a>
+			<a href="https://fstec.ru/dokumenty-filter" class="link docs">ФСТЭК: Документы</a>
+			<a href="https://wiki.astralinux.ru/kb" class="link docs">Astra Linux: База знаний</a>
+			<a href="https://docs.avanpost.ru/index.html" class="link docs">Документация Avanpost FAM/MFA+</a>
+		</div>
+		<h2>Tools</h2>
+		<div>
+		<a href="https://d-fault.nl/cidrtoregex" title="CIDR to RegEx" class="link tools">CIDR to RegEx</a>
+		<a href="https://threatyeti.com/" title="threatYeti" class="link tools">threatYeti</a>
+		<a href="https://iocportal.ptsecurity.com/" title="Проверяйте подозрительные URL, домены, IP-адреса и файлы
+для обнаружения киберугроз" class="link tools">IoC Portal - Positive Technologies</a>
+		<a href="https://app.any.run/" title="online malware analysis tools" class="link tools">Interactive Online Malware Analysis Sandbox - ANY.RUN</a>
+		<a href="https://www.analyticsmarket.com/freetools/ipregex/" title="IP Range Regular Expression Builder" class="link tools">IP Range Regex</a>
+		<a href="https://lookup.icann.org/en/lookup" title="ICANN" class="link tools">ICANN Lookup</a>
+		<a href="https://www.ripe.net/" title="RIPE NCC" class="link tools">RIPE Lookup </a>
+		<a href="https://www.useragentstring.com/pages/useragentstring.php" title="User Agent" class="link tools">User Agent String.Com </a>
+		<a href="https://asn.ipinfo.app/AS199599" title="ASN INFO" class="link tools">ASN info</a>
+		<a href="https://threatbook.io/" title="ThreatBook CTI makes a better understanding of threat intelligence" class="link tools">ThreatBook Intelligence</a>
+		<a href="https://www.ipvoid.com/" title="We offer a vast range of IP address tools to discover details about IP addresses." class="link tools">IP Address Tools Online</a>
+		<a href="https://www.robtex.com/" title="Robtex is used for various kinds of research of IP numbers, Domain names, etc" class="link tools">Robtex</a>
+		<a href="https://www.shodan.io/" title="Search Engine for the Internet of Everything" class="link tools">SHODAN Search Engine</a>
+		<a href="https://urlhaus.abuse.ch/" class="link tools">URLhaus</a>
+		<a href="https://regex101.com/" class="link tools">regex101</a>
+		<a href="https://gchq.github.io/CyberChef/" class="link tools">CyberChef - online!</a>
+		<a href="https://ipinfo.io/" class="link tools">ipinfo.io</a>
+		<a href="https://www.virustotal.com/gui/" class="link tools">VirusTotal</a>
+		<a href="https://otx.alienvault.com/" class="link tools">AlienVault - Open Threat Exchange</a>
+		<a href="https://opentip.kaspersky.com/" class="link tools">Kaspersky Threat Intelligence Portal</a>
+		<a href="https://vuldb.com/ru/" class="link tools">VulnDB</a>
+		<a href="https://www.abuseipdb.com/" class="link tools">AbuseIPDB</a>
+		<a href="https://vulners.com/search" class="link tools">vulners.com</a>
+		<a href="https://www.microsoft.com/en-us/msrc" class="link tools">Microsoft Security Response Center</a>
+		<a href="https://www.exploit-db.com/" class="link tools">Exploit Database</a>
+		<a href="https://exchange.xforce.ibmcloud.com/" title=" IBM's threat intelligence sharing platform, offering free access to certain features." class="link tools">IBM - Open Threat Exchange</a>
+		<a href="https://urlscan.io/" class="link tools">urlscan.io</a>
+		<a href="https://crontab.guru/" class="link tools">crontab guru</a>
+		<a href="https://bgp.he.net/" class="link tools">BGP Toolkit</a>
+		<a href="https://asnlookup.com/" class="link tools">ASN Lookup</a>
+		<a href="https://dnsdumpster.com/" class="link tools">dnsdumpster</a>
+		<a href="https://crt.sh" class="link tools">crt.sh</a>
+		<a href="https://osintframework.com/" class="link tools">osintframework</a>
+	    </div>
+		<h2>News</h2>
+		<div>
+		<a href="https://www.recordedfuture.com/" class="link news">Recorded Future</a>
+		<a href="https://www.darkreading.com/" class="link news">Dark Reading</a>
+		<a href="https://www.cisa.gov/" class="link news">CISA</a>
+		<a href="https://www.circl.lu/" class="link news">The Computer Incident Response Center Luxembourg (CIRCL)</a>
+		</div>
+		<h2>M A P S</h2>
+		<div>
+		<a href="https://cybermap.kaspersky.com/" class="link maps">Kaspersky CYBERTHREAT REAL-TIME MAP</a>
+		<a href="https://www.digitalattackmap.com" class="link maps">Top daily DDoS attacks worldwide</a>
+		<a href="https://dashboard.shadowserver.org/" class="link maps">shadowserver</a>
+		<a href="https://livethreatmap.radware.com/" class="link maps">radware</a>
+		<a href="https://radar.securitywizardry.com/" class="link maps">securitywizardry</a>
+</body>
+</html>
