@@ -76,3 +76,14 @@ has_toc: true
    ```
 
 Таким образом, `/etc/skel` предоставляет централизованный способ настройки начальной среды новых пользователей, что упрощает управление и стандартизацию пользовательских настроек в системе.
+
+# Добавление сервтификата в Debian
+/usr/local/share/ca-certificates/ Directory of local CA certificates (with .crt extension).
+```
+sudo cp trusted_root_ca.crt /usr/local/share/ca-certificates/
+```
+update-ca-certificates is a program that updates the directory /etc/ssl/certs to hold SSL certificates and generates ca-certificates.crt, a concatenated single-file list of certificates.
+```
+sudo update-ca-certificates -v
+```
+
