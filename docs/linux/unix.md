@@ -157,6 +157,9 @@ sudo update-ca-certificates -v
 
    - Пример: `groupmod -n devs developers`  
      Переименовывает группу "developers" в "devs".
+     
+   - Пример: `gpasswd -d user group`  
+     Удалить пользователя "user" из группы "group".
 
 ## 7. **Просмотр списка пользователей и групп**
    - `cat /etc/passwd`  
