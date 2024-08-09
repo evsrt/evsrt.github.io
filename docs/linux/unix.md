@@ -187,3 +187,43 @@ sudo update-ca-certificates -v
 
    - Пример: `usermod -U john`
 
+# Запрос на выпуск сертификата сервера
+## создать конфигурацию запроса на сертификат сервера
+```bash
+nano server_csr.cnf
+```
+```bash
+[ req ]
+default_bits       = 4096
+default_md         = sha256
+prompt             = no
+default_keyfile    = SERVER.key
+distinguished_name = req_distinguished_name
+req_extensions     = req_ext
+
+[ req_distinguished_name ]
+C  = RU
+ST = Moscow
+CN = SERVER
+
+[ req_ext ]
+subjectAltName = @alt_names
+
+[ alt_names ]
+DNS.1 = SERVER
+#DNS.2 =
+#IP.1 = 
+```
+## генерация закрытого ключа
+```bash
+openssl genpkey -algorithm RSA -out SERVER.key -pkeyopt rsa_keygen_bits:4096
+```
+## генерация запроса на сертификат
+```bash
+openssl req -new -key SERVER.key -out SERVER.csr -config server_csr.cnf
+```
+
+## проверка запроса на выпуск сертификата
+```bash
+openssl req -in SERVER.csr -noout -text
+```
