@@ -190,7 +190,12 @@ sudo update-ca-certificates -v
 
    - Пример: `usermod -U john`
 
-# Запрос на выпуск сертификата сервера
+# openssl
+## crl to pem
+```bash
+openssl crl -in ca.crl -inform DER -out crl.pem
+```
+## Запрос на выпуск сертификата сервера
 ## создать конфигурацию запроса на сертификат сервера
 ```bash
 nano server_csr.cnf
