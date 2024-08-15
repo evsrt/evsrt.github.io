@@ -1,6 +1,6 @@
 ---
 layout: default
-title: tools
+title: onlinetools
 parent: kb
 has_toc: true
 ---
