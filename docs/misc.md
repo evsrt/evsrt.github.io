@@ -82,3 +82,10 @@ Root Cause Analysis является важным инструментом дл�
 
 [^1]: <https://miro.com/templates/5-whys/>
 [^2]: <https://miro.com/ru/diagramming/what-is-a-fishbone-diagram/>
+
+# Regional Internet Registries
+- African Network Information Center (AFRINIC) is responsible for Africa.
+- American Registry for Internet Numbers (ARIN) is responsible for North America, Antarctica, and parts of the Caribbean. 
+- Asia Pacific Network Information Centre (APNIC) is responsible for Asia, Australia, New Zealand, and other neighboring countries. 
+- Latin America and Caribbean Network Information Centre (LACNIC) is responsible for Central and South America as well as parts of the Caribbean. 
+- Réseaux IP Européens Network Coordination Centre (RIPE NCC) is responsible for Europe, Russia, the Middle East, and central Asia.
