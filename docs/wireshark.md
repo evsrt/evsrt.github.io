@@ -491,3 +491,156 @@ http.request.uri contains "INFORMATION_SCHEMA"
   ```wireshark
   tcp.flags.syn == 1 and tcp.flags.ack == 1
   ```
+
+## General Wireshark Filters
+
+1. **Filter by IP Address (Source)**
+   ```plaintext
+   ip.src == 192.168.1.1
+   ```
+
+2. **Filter by IP Address (Destination)**
+   ```plaintext
+   ip.dst == 192.168.1.1
+   ```
+
+3. **Filter by Protocol**
+   ```plaintext
+   tcp
+   ```
+
+4. **Filter by Port (TCP)**
+   ```plaintext
+   tcp.port == 80
+   ```
+
+5. **Filter by Port (UDP)**
+   ```plaintext
+   udp.port == 53
+   ```
+
+6. **Filter by Subnet**
+   ```plaintext
+   ip.addr == 192.168.1.0/24
+   ```
+
+7. **Filter by HTTP Requests**
+   ```plaintext
+   http.request
+   ```
+
+8. **Filter by DNS Traffic**
+   ```plaintext
+   dns
+   ```
+
+9. **Filter by ARP Traffic**
+   ```plaintext
+   arp
+   ```
+
+10. **Filter by ICMP (Ping) Traffic**
+    ```plaintext
+    icmp
+    ```
+
+11. **Filter by SSL/TLS Traffic**
+    ```plaintext
+    ssl or tls
+    ```
+
+12. **Filter by DHCP Traffic**
+    ```plaintext
+    bootp
+    ```
+
+13. **Filter by TCP SYN Packets**
+    ```plaintext
+    tcp.flags.syn == 1
+    ```
+
+14. **Filter by TCP SYN-ACK Packets**
+    ```plaintext
+    tcp.flags == 0x12
+    ```
+
+15. **Filter by TCP FIN Packets**
+    ```plaintext
+    tcp.flags.fin == 1
+    ```
+
+16. **Filter by Packet Size**
+    ```plaintext
+    frame.len > 1000
+    ```
+
+17. **Filter by MAC Address (Source)**
+    ```plaintext
+    eth.src == 00:11:22:33:44:55
+    ```
+
+18. **Filter by MAC Address (Destination)**
+    ```plaintext
+    eth.dst == 00:11:22:33:44:55
+    ```
+
+19. **Filter by TCP RST Packets**
+    ```plaintext
+    tcp.flags.rst == 1
+    ```
+
+20. **Filter by TCP Window Size**
+    ```plaintext
+    tcp.window_size == 0
+    ```
+
+21. **Filter by Packet Containing a String**
+    ```plaintext
+    frame contains "example"
+    ```
+
+22. **Filter by VLAN ID**
+    ```plaintext
+    vlan.id == 10
+    ```
+
+23. **Filter by Specific Hostname in DNS**
+    ```plaintext
+    dns.qry.name == "example.com"
+    ```
+
+24. **Filter by HTTP Response Code**
+    ```plaintext
+    http.response.code == 200
+    ```
+
+25. **Filter by IP Address Range**
+    ```plaintext
+    ip.addr >= 192.168.1.1 and ip.addr <= 192.168.1.10
+    ```
+
+26. **Filter by TCP Sequence Number**
+    ```plaintext
+    tcp.seq == 1000
+    ```
+
+27. **Filter by User-Agent in HTTP**
+    ```plaintext
+    http.user_agent contains "Mozilla"
+    ```
+
+28. **Filter by TCP Retransmissions**
+    ```plaintext
+    tcp.analysis.retransmission
+    ```
+
+29. **Filter by TCP Duplicate ACKs**
+    ```plaintext
+    tcp.analysis.duplicate_ack
+    ```
+
+30. **Filter by ICMP Echo Request**
+    ```plaintext
+    icmp.type == 8
+    ```
+
