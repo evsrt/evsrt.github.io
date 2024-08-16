@@ -246,3 +246,28 @@ openssl req -in SERVER.csr -noout -text
 3. **После выполнения обновлений**: В некоторых случаях, после обновления пакетов, связанных с `systemd`, рекомендуется выполнить `daemon-reload`, чтобы система использовала новые конфигурационные параметры.
 
 Важно отметить, что перезагрузка конфигурации с помощью `systemctl daemon-reload` не прерывает и не перезапускает текущие службы. Это просто заставляет `systemd` заново считать конфигурационные файлы и обновить свою внутреннюю базу данных юнитов.
+
+# ssh jumphost
+Configure .ssh/config
+```bash
+Host source
+	HostName 1.1.1.1
+	Port 22
+	User admin
+	IdentityFile ~/.ssh/privatebox
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+	
+Host destination
+	HostName 2.2.2.2
+  Port 22
+	User admin
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+	ProxyJump source
+	IdentityFile ~/.ssh/privatebox
+```
+copy linux-amd64.tgz to /home/admin/ of destination host
+```bash
+scp -J admin@source linux-amd64.tgz destination:~
+```
