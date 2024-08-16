@@ -260,10 +260,10 @@ Host source
 	
 Host destination
 	HostName 2.2.2.2
-  Port 22
+        Port 22
 	User admin
-  StrictHostKeyChecking no
-  UserKnownHostsFile /dev/null
+        StrictHostKeyChecking no
+        UserKnownHostsFile /dev/null
 	ProxyJump source
 	IdentityFile ~/.ssh/privatebox
 ```
