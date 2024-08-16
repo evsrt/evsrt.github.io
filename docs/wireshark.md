@@ -27,7 +27,6 @@ Database-specific commands 'UNION SELECT' or 'INFORMATION_SCHEMA'
 http.request.uri contains "INFORMATION_SCHEMA"
 ```
 
-```markdown
 # Top 100 Wireshark Filters for Investigating Attacks or Hacker Activity
 
 ## 1. Basic Traffic Monitoring
