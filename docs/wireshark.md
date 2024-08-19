@@ -643,4 +643,8 @@ http.request.uri contains "INFORMATION_SCHEMA"
     ```plaintext
     icmp.type == 8
     ```
+31. **Filter upload file**
+    ```plaintext
+    mime_multipart.type == "multipart/form-data" && http.request.method == POST
+    ```
 
