@@ -89,3 +89,23 @@ Root Cause Analysis является важным инструментом дл�
 - Asia Pacific Network Information Centre (APNIC) is responsible for Asia, Australia, New Zealand, and other neighboring countries. 
 - Latin America and Caribbean Network Information Centre (LACNIC) is responsible for Central and South America as well as parts of the Caribbean. 
 - Réseaux IP Européens Network Coordination Centre (RIPE NCC) is responsible for Europe, Russia, the Middle East, and central Asia.
+
+# terminal, cmd, PowerShell single command in multiple lines 
+## Linux
+```bash
+echo "Это \
+перенос \
+строки"
+```
+## cmd 
+```cmd
+echo Это ^
+перенос ^
+строки
+```
+## PowerShell
+```powershell
+Write-Host "Это `
+перенос `
+строки"
+```
