@@ -365,6 +365,17 @@ openssl req -in SERVER.csr -noout -text
 
 Важно отметить, что перезагрузка конфигурации с помощью `systemctl daemon-reload` не прерывает и не перезапускает текущие службы. Это просто заставляет `systemd` заново считать конфигурационные файлы и обновить свою внутреннюю базу данных юнитов.
 
+# sshd config
+```bash
+Match Group GROUP_NAME
+    AllowUsers *@host1 *@host2 user1@10.10.10.10 user2@10.10.11.11
+    X11Forwarding yes
+    PermitEmptyPasswords no
+    PasswordAuthentication no
+    PubkeyAuthentication yes
+    AllowTcpForwarding yes
+```
+
 # ssh jumphost
 Configure .ssh/config
 ```bash
