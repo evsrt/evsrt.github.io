@@ -12,6 +12,12 @@ has_toc: true
 1. TOC
 {:toc}
 </details>
+
+# grep
+Поиск строки в файлах без учета регистра
+```bash
+grep -ri "10.10.10.10" /tmp/unzip/
+```
 # netstat
 <https://en.wikipedia.org/wiki/Netstat>
   
