@@ -1830,3 +1830,36 @@ sudo tcpdump -i eth0 esp
 - `pacman -Si <pkg-name>` — показать детальную информацию о пакете.
 - `pacman -Qi <pkg-name>` — показать информацию о установленном пакете.
 - `pacman -Qdt` — показать «осиротевшие» пакеты, которые больше не нужны как зависимости.
+- 
+
+# Debian 10, 11 repository
+## Debian 11
+```bash
+# YANDEX
+# Основные репозитории
+deb http://mirror.yandex.ru/debian/ bullseye main
+deb-src http://mirror.yandex.ru/debian/ bullseye main
+
+# Обновления безопасности
+deb http://mirror.yandex.ru/debian-security bullseye-security main contrib
+deb-src http://mirror.yandex.ru/debian-security bullseye-security main contrib
+
+# Официальные обновления системы (включая исправления ошибок и уязвимостей)
+deb http://mirror.yandex.ru/debian/ bullseye-updates main contrib
+deb-src http://mirror.yandex.ru/debian/ bullseye-updates main contrib
+```
+## Debian 10
+```bash
+# YANDEX
+# Основные репозитории
+deb http://mirror.yandex.ru/debian/ buster main
+deb-src http://mirror.yandex.ru/debian/ buster main
+
+# Обновления безопасности
+deb http://mirror.yandex.ru/debian-security buster/updates main contrib
+deb-src http://mirror.yandex.ru/debian-security buster/updates main contrib
+
+# Официальные обновления системы (включая исправления ошибок и уязвимостей)
+deb http://mirror.yandex.ru/debian/ buster-updates main contrib
+deb-src http://mirror.yandex.ru/debian/ buster-updates main contrib
+```
