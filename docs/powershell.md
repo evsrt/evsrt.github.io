@@ -21,3 +21,8 @@ has_toc: true
 ```powershell
 Select-String -Path "C:\tmp\dir\*" -Pattern "строка_для_поиска" -Recurse -CaseSensitive
 ```
+# ldap filters
+Excludes all users who are disabled.
+```powershell
+&(objectCategory=person)(objectClass=user)(userAccountControl:1.2.840.113556.1.4.803:=2)
+```
