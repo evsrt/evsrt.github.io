@@ -22,3 +22,6 @@ has_toc: true
 # List of backup software
 
 <https://en.wikipedia.org/wiki/List_of_backup_software>
+
+# Коды избыточности: простыми словами о том, как надёжно и дёшево хранить данные
+<https://habr.com/ru/companies/yandex/articles/510050/>
