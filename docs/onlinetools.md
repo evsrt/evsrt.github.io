@@ -175,3 +175,7 @@ Interactive Online Malware Sandbox. Cloud-based malware analysis service. Take y
 This tool creates a RegEx statement that matches a range of IP Addresses.
 
 <https://www.analyticsmarket.com/freetools/ipregex/>
+
+# mitre attack-navigator
+Инструмент для визуализации и анализа TTPs
+<https://mitre-attack.github.io/attack-navigator/>
