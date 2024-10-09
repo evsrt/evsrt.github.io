@@ -101,7 +101,7 @@ log_min_messages = warning
 log_min_error_statement = error
 
 # Логировать команды, изменяющие данные (INSERT, UPDATE, DELETE)
-log_statement = 'mod'
+log_statement = 'ddl'
 
 # Логирование успешных подключений
 log_connections = on
