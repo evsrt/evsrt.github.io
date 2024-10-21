@@ -17,6 +17,18 @@ has_toc: true
 {:toc}
 </details>
 
+# Установка ACL
+```bash
+apt install acl
+```
+## Проверка установленных ACL
+```bash
+getfacl /var/run/docker.sock
+```
+## Установка ACL для файла
+```bash
+setfacl -m u:zabbix:rw /var/run/docker.sock
+```
 # Поиск информации о завершении, перезагрузки системы 
 
 ### Описание команд для диагностики причины завершения работы сервера
