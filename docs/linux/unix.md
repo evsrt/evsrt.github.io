@@ -17,6 +17,38 @@ has_toc: true
 {:toc}
 </details>
 
+# alias
+
+### Полезные алиасы для оболочки Linux
+
+- `alias ..='cd ..'` – Перейти на один уровень выше.
+- `alias ...='cd ../..'` – Перейти на два уровня выше.
+- `alias ....='cd ../../..'` – Перейти на три уровня выше.
+- `alias ll='ls -al --color=auto'` – Показать файлы с подробной информацией.
+- `alias lt='ls -ltr'` – Показать файлы в порядке модификации по возрастанию.
+- `mkd() { mkdir -p "$1" && cd "$1"; }` – Создать директорию и сразу войти в нее.
+- `alias rm='rm -i'` – Запрашивать подтверждение перед удалением файлов.
+- `alias du='du -ch --max-depth=1'` – Подвести итоги использования диска по директориям.
+- `alias mem='free -h'` – Показать использование памяти.
+- `alias topcpu="ps -eo pid,cmd,%mem,%cpu --sort=-%cpu | head"` – Показать процессы с максимальной загрузкой CPU.
+- `alias topmem="ps -eo pid,cmd,%mem,%cpu --sort=-%mem | head"` – Показать процессы с максимальным использованием памяти.
+- `alias psg="ps aux | grep -v grep | grep -i"` – Найти процессы по имени или ключевому слову.
+- `alias f="find . -type f -name"` – Найти файлы.
+- `alias grep='grep --color=auto -i'` – Нечувствительный к регистру `grep` с цветным выводом.
+- `alias reload='source ~/.bashrc'` – Перезагрузить конфигурацию оболочки.
+- `alias hgrep='history | grep'` – Искать в истории команд оболочки.
+- `alias chown='chown --preserve-root'` – Предотвратить случайное применение к корню.
+- `alias chmod='chmod --preserve-root'` – Предотвратить случайное применение к корню.
+- `alias chgrp='chgrp --preserve-root'` – Предотвратить случайное применение к корню.
+- `alias ports='sudo ss -tulnap'` – Показать все открытые системные порты.
+- `ipa() { ip -4 a show "$1" | grep -oP '(?<=inet\s)\d+(\.\d+){3}'; }` – Показать IP-адрес интерфейса.
+- `alias cpv='rsync -ah --info=progress2'` – Копировать файлы с индикатором прогресса.
+- `alias update='sudo apt update && sudo apt upgrade -y'` – Обновить системы на базе Debian.
+- `alias clean='sudo apt autoremove && sudo apt clean'` – Очистить неиспользуемые пакеты и кеш.
+- `alias status='sudo systemctl status'` – Проверить статус службы systemd.
+- `alias restart='sudo systemctl restart'` – Перезапустить службу systemd.
+- `alias please='sudo !!'` – Повторить последнюю команду с правами суперпользователя.
+
 # Установка ACL
 ```bash
 apt install acl
