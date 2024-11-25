@@ -1,6 +1,6 @@
 ---
 layout: default
-title: gir
+title: git
 parent: kb
 has_toc: true
 ---
