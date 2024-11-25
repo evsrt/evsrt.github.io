@@ -22,15 +22,15 @@ pkcs11-tool --module /usr/lib64/librtpkcs11ecp.so -l -y cert -w cert.der --id 10
 ```
 Remove All Private Keys
 ```bash
-pkcs11-tool --module /usr/lib64/librtpkcs11ecp.so -l --type privkey --delete-object
+pkcs11-tool --module /usr/lib64/librtpkcs11ecp.so -l --type privkey --delete-object --id 10
 ```
 Remove All Certificates
 ```bash
-pkcs11-tool --module /usr/lib64/librtpkcs11ecp.so -l --type cert --delete-object
+pkcs11-tool --module /usr/lib64/librtpkcs11ecp.so -l --type cert --delete-object --id 10
 ```
 Remove All Public Keys
 ```bash
-pkcs11-tool --module /usr/lib64/librtpkcs11ecp.so -l --type pubkey --delete-object
+pkcs11-tool --module /usr/lib64/librtpkcs11ecp.so -l --type pubkey --delete-object --id 10
 ```
 List All Objects on the Token:
 ```bash
