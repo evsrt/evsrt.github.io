@@ -2263,6 +2263,9 @@ sudo tcpdump -i eth0 esp
 - **`curl -L http://abc.com`**: следовать всем перенаправлениям до достижения конечного адреса.
   - Пример: `curl -L http://abc.com` — будет следовать за всеми перенаправлениями.
 
+- **`curl -sLk -o file.exe https://file.ru/file.exe`**: следовать всем перенаправлениям до достижения конечного адреса и сохранить в файл, без вывода информации о процессе.
+  - Пример: `curl -sLk -o setup.exe https://file.ru/s/TCmJS8tLXsHixE3/download/setup.exe`
+
 - **`curl -b /path/to/cookie http://abc.com`**: прочитать локальный файл cookie.
   - Пример: `curl -b /path/to/cookie.txt http://abc.com` — выполнит запрос с использованием данных cookie из файла.
 
@@ -2271,7 +2274,7 @@ sudo tcpdump -i eth0 esp
 
 - **`curl --compressed http://abc.com`**: автоматически декомпрессировать ответ.
   - Пример: `curl --compressed http://abc.com` — декомпрессирует сжатый ответ сервера.
-
+  
 ### Операции HTTP POST/PUT
 - **`curl -X POST -d "key1=val1&key2=val2" http://abc.com`**: указать пары ключ-значение в POST-запросе.
   - Пример: `curl -X POST -d "name=John&age=30" http://abc.com` — выполнит POST-запрос с данными.
