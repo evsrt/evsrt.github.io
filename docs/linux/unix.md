@@ -17,6 +17,11 @@ has_toc: true
 {:toc}
 </details>
 
+# show tls chain
+```bash
+openssl s_client -connect hostname:443 -servername hostname -showcerts </dev/null 2>/dev/null
+```
+
 # direct link
 Настройка Direct Link между сервером Debian 10 и СХД
 
