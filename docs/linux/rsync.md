@@ -1,6 +1,6 @@
 ---
 layout: default
-title: unix
+title: rsync
 has_children: false
 permalink: /docs/kb/linux/rsync
 parent: linux
