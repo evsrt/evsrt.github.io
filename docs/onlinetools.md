@@ -14,6 +14,11 @@ has_toc: true
 {:toc}
 </details>
 
+# TLS Configurator
+Generate a secure, copy-paste TLS configuration for your server software.
+
+<https://configurator.tlsref.org/>
+
 # reallyfreegeoip
 is a free public IP location API to lookup the city and country of any IP address. Find time zone, latitude and longitude of geolocations.
 
